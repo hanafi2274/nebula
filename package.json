@@ -1,0 +1,25 @@
+{
+  "name": "deckgl-and-nebulagl-editablegeojsonlayer-no-react",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --open",
+    "start-local": "webpack-dev-server --env.local --progress --hot --open",
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "@deck.gl/core": "8.2.4",
+    "@deck.gl/layers": "8.2.4",
+    "@deck.gl/mesh-layers": "8.2.4",
+    "@nebula.gl/layers": "0.19.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "keywords": [],
+  "description": ""
+}
